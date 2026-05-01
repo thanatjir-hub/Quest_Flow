@@ -2,7 +2,7 @@
 
 **QuestFlow** เป็นเว็บแอปพลิเคชันจัดการงาน (Task Management) ที่เปลี่ยนการทำงานให้กลายเป็นประสบการณ์ RPG ที่น่าตื่นเต้น พัฒนาด้วยเทคโนโลยีสมัยใหม่เพื่อพิสูจน์ทักษะด้าน Full-stack Development และ Generative AI Integration
 
-**หรือกดเข้าไปลองใช้งานได้ตามลิงก์นี้**   [![กดคลิ๊กที่นี่](https://quest-flow-aqqjyil37-thanatjir-hubs-projects.vercel.app/)
+**หรือกดเข้าไปลองใช้งานได้ตามลิงก์นี้**   [กดคลิ๊กที่นี่](https://quest-flow-aqqjyil37-thanatjir-hubs-projects.vercel.app/)
 
 ---
 
