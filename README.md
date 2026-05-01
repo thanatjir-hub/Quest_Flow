@@ -10,10 +10,10 @@
 ## 📸 Showcasing QuestFlow
 
 <div align="center">
-  <img src="https://drive.google.com/uc?id=15B1cl9lqxdp57GpODYAGo2pGJB8X8y76" alt="QuestFlow Dashboard" width="800">
+  <img src="https://drive.google.com/uc?id=15B1cl9lqxdp57GpODYAGo2pGJB8X8y76" alt="QuestFlow Dashboard" width="400">
   <p><em>หน้าจอหลัก Dashboard ที่รวบรวมระบบ Gamification และรายการเควสต์</em></p>
   
-  <img src="https://drive.google.com/uc?id=1iSERCL58sqdkeWHbZal-51-DQzr991oH" alt="AI Feature" width="800">
+  <img src="https://drive.google.com/uc?id=1iSERCL58sqdkeWHbZal-51-DQzr991oH" alt="AI Feature" width="400">
   <p><em>ระบบ AI Epic Naming เปลี่ยนชื่อเควสต์ธรรมดาให้กลายเป็นภารกิจในตำนาน</em></p>
 </div>
 
