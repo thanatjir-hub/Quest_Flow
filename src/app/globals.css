@@ -1,0 +1,72 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 30 50% 98%; /* #F8F1ED - warm off-white */
+    --foreground: 24 10% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 24 10% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 24 10% 10%;
+    --primary: 25 85% 53%; /* #EB7924 - vibrant orange */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 326 65% 52%; /* #DB2E95 - playful magenta */
+    --secondary-foreground: 0 0% 100%;
+    --muted: 25 20% 90%;
+    --muted-foreground: 25 10% 40%;
+    --accent: 326 65% 52%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 25 20% 85%;
+    --input: 25 20% 85%;
+    --ring: 25 85% 53%;
+    --radius: 1rem;
+  }
+  .dark {
+    --background: 24 10% 10%;
+    --foreground: 0 0% 98%;
+    --card: 24 10% 12%;
+    --card-foreground: 0 0% 98%;
+    --popover: 24 10% 12%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 25 85% 53%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 326 65% 52%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 24 10% 20%;
+    --muted-foreground: 24 10% 65%;
+    --accent: 326 65% 52%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 24 10% 20%;
+    --input: 24 10% 20%;
+    --ring: 25 85% 53%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline font-bold;
+  }
+}
+
+@keyframes celebrate {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+.animate-celebrate {
+  animation: celebrate 0.5s ease-in-out;
+}

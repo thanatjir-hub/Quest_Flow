@@ -1,0 +1,17 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "hero-quest",
+      "description": "A character embarking on a journey with a backpack",
+      "imageUrl": "https://picsum.photos/seed/quest-hero/800/400",
+      "imageHint": "adventure quest"
+    },
+    {
+      "id": "achievement-icon",
+      "description": "Abstract victory trophy",
+      "imageUrl": "https://picsum.photos/seed/trophy/200/200",
+      "imageHint": "trophy achievement"
+    }
+  ]
+}
