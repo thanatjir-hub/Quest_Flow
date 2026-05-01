@@ -1,33 +1,71 @@
-# 🎮 QuestFlow - คู่มือสำหรับผู้เริ่มต้น (ฉบับมือใหม่มาก)
+# 🏆 QuestFlow: AI-Powered Gamified Productivity Platform
 
-ยินดีด้วย! คุณมีโปรเจกต์แอปจัดการงานสุดเท่อยู่ในมือแล้ว หากคุณต้องการเอาไปรันในเครื่องตัวเอง ให้เลือกทำ **วิธีใดวิธีหนึ่ง** ต่อไปนี้ครับ:
+**QuestFlow** เป็นเว็บแอปพลิเคชันจัดการงาน (Task Management) ที่เปลี่ยนการทำงานให้กลายเป็นประสบการณ์ RPG ที่น่าตื่นเต้น พัฒนาด้วยเทคโนโลยีสมัยใหม่เพื่อพิสูจน์ทักษะด้าน Full-stack Development และ Generative AI Integration
 
-## 1. วิธีที่ง่ายที่สุด (The Easy Way)
-*   **มองหาปุ่ม Export หรือ Download**: ที่หน้าจอ Studio นี้ ให้มองหาปุ่มที่เขียนว่า Export หรือสัญลักษณ์ลูกศรดาวน์โหลด (มักอยู่มุมขวาบน)
-*   **ดาวน์โหลดไฟล์ ZIP**: พอกดแล้วคุณจะได้ไฟล์หนึ่งไฟล์ที่รวบรวมโค้ดทั้งหมดไว้
-*   **แตกไฟล์ (Extract)**: คลิกขวาที่ไฟล์นั้นในคอมคุณแล้วเลือก "Extract All" หรือ "แตกไฟล์" คุณจะได้โฟลเดอร์ที่มีโค้ดครบถ้วนครับ
+**หรือกดเข้าไปลองใช้งานได้ตามลิงก์นี้** (https://quest-flow-aqqjyil37-thanatjir-hubs-projects.vercel.app/)
 
-## 2. วิธีการเตรียมคอมพิวเตอร์เพื่อรันแอป
-เมื่อได้ไฟล์มาอยู่ในคอมแล้ว ให้ทำตามนี้:
-1.  **ติดตั้ง Node.js**: โหลดได้ที่ [nodejs.org](https://nodejs.org/) (เลือกเวอร์ชัน LTS)
-2.  **เปิด Command Prompt / Terminal**: เข้าไปที่โฟลเดอร์โปรเจกต์ที่คุณแตกไฟล์ไว้
-3.  **พิมพ์คำสั่งติดตั้ง**: 
-    ```bash
-    npm install
-    ```
-4.  **ใส่ API Key**: สร้างไฟล์ชื่อ `.env` ในโฟลเดอร์หลัก แล้วใส่:
-    ```
-    GOOGLE_GENAI_API_KEY=รหัส_API_ของคุณ
-    ```
-5.  **เริ่มรันแอป**:
-    ```bash
-    npm run dev
-    ```
-    จากนั้นเปิดเบราว์เซอร์ไปที่ `http://localhost:9002`
+---
 
-## 🏗️ โครงสร้างโปรเจกต์ที่ควรรู้ (เผื่ออยากลองแก้)
-*   **`src/app/page.tsx`**: หน้าตาหน้าหลักของแอป (ปุ่ม, ข้อความ, สี)
-*   **`src/ai/flows/`**: สมองของ AI (คำสั่งที่เราสั่งให้ AI ทำงาน)
-*   **`src/app/globals.css`**: ที่สำหรับเปลี่ยนธีมสีของแอป
+## 📸 Showcasing QuestFlow
 
-ถ้าติดขัดตรงไหน หรือหาปุ่มดาวน์โหลดไม่เจอ บอกผมได้เลยครับ ผมพร้อมชd
+<div align="center">
+  <img src="https://drive.google.com/uc?id=15B1cl9lqxdp57GpODYAGo2pGJB8X8y76" alt="QuestFlow Dashboard" width="800">
+  <p><em>หน้าจอหลัก Dashboard ที่รวบรวมระบบ Gamification และรายการเควสต์</em></p>
+  
+  <img src="https://drive.google.com/uc?id=1iSERCL58sqdkeWHbZal-51-DQzr991oH" alt="AI Feature" width="800">
+  <p><em>ระบบ AI Epic Naming เปลี่ยนชื่อเควสต์ธรรมดาให้กลายเป็นภารกิจในตำนาน</em></p>
+</div>
+
+---
+
+## 🚀 Key Features (ความสามารถหลัก)
+
+- **AI Epic Naming (Genkit)**: ใช้ Gemini 2.5 Flash ในการวิเคราะห์และเปลี่ยนชื่อภารกิจให้น่าสนใจในสไตล์ RPG (เช่น "ล้างจาน" -> "ชำระล้างภาชนะศิลาแห่งโภชนาการ")
+- **AI Quest Breakdown**: ระบบผู้ช่วยอัจฉริยะที่ช่วยแตกงานใหญ่ที่ซับซ้อนให้กลายเป็นขั้นตอนย่อย (Sub-quests) ที่ทำได้จริง
+- **Gamification Engine**: ระบบเก็บค่าประสบการณ์ (XP), การเลเวลอัป (Level Up) และการปลดล็อกเหรียญตราความสำเร็จ (Achievements) แบบ Real-time
+- **Responsive Dashboard**: ออกแบบหน้าจอให้สวยงามและใช้งานง่ายในทุกอุปกรณ์ (Desktop & Mobile)
+
+## 🛠️ Tech Stack (เทคโนโลยีที่ใช้)
+
+- **Frontend**: Next.js 15 (App Router), React, TypeScript
+- **Styling**: Tailwind CSS, ShadCN UI (Radix UI)
+- **AI Orchestration**: Genkit SDK + Google Gemini 2.5 Flash
+- **State Management**: React Hooks & LocalStorage Persistence
+- **Deployment**: Vercel
+
+## 🧠 Technical Highlights (ความท้าทายทางเทคนิค)
+
+- **AI Prompt Engineering**: ออกแบบ Prompt ให้ AI เข้าใจบริบทความเป็นเกมและภาษาไทยอย่างถูกต้อง
+- **Dynamic UI/UX**: ใช้ Tailwind Animation และ CSS Variables เพื่อสร้างความรู้สึกเหมือนเล่นเกม RPG จริงๆ
+- **Clean Architecture**: แยกส่วน Logic ของ AI (Genkit Flows) ออกจาก UI อย่างชัดเจนเพื่อให้ง่ายต่อการขยายผลในอนาคต
+
+## 📦 How to Run Locally (การติดตั้งในเครื่อง)
+
+1. **Clone & Install**
+   ```bash
+   git clone https://github.com/thanatjir-hub/Quest_Flow.git
+   cd Quest_Flow
+   npm install
+   ```
+
+2. **Set Environment Variable**
+   สร้างไฟล์ `.env` และเพิ่ม API Key:
+   ```env
+   GOOGLE_GENAI_API_KEY=your_gemini_api_key
+   ```
+
+3. **Start Development**
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## 👨‍💻 Developed by
+
+**Thanat Jirapongnoppadon**
+
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=flat&logo=github)](https://github.com/thanatjir-hub)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/thanat-jirapongnoppadon-964476396)
+
+*This project was built to demonstrate the integration of Generative AI into modern web applications.*
