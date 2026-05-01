@@ -1,4 +1,5 @@
 # 🏆 QuestFlow: AI-Powered Gamified Productivity Platform
+# เปลี่ยนงานยากผลัดวันประกันพรุ่งให้สนุกไปกับมันง่ายๆ แค่พิมพ์สิ่งที่อยากทำลงไป ระบบจะ Break Down ให้เหลือ Task ย่อยๆ ที่ลงมือทำได้จริง 
 
 **QuestFlow** เป็นเว็บแอปพลิเคชันจัดการงาน (Task Management) ที่เปลี่ยนการทำงานให้กลายเป็นประสบการณ์ RPG ที่น่าตื่นเต้น พัฒนาด้วยเทคโนโลยีสมัยใหม่เพื่อพิสูจน์ทักษะด้าน Full-stack Development และ Generative AI Integration
 
